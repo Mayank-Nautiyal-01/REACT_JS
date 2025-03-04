@@ -2,7 +2,7 @@ function Series({curElem}) {
     return (
         <li>
           <div>
-            <img src={curElem.img_url} alt="img" width="20%" height="20%"/>
+            <img src={curElem.img_url} alt="img" width="40%" height="40%"/>
           </div>
     
           <h2>Name: {curElem.name}</h2>
