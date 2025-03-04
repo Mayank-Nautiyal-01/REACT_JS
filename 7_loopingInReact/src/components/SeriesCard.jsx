@@ -1,5 +1,5 @@
 import seriesData from '../api/seriesData.json'
-function netflixCard() {
+function SeriesCard() {
   return (
       <ul>
         {seriesData.map((curElem)=>{
@@ -28,4 +28,4 @@ function netflixCard() {
   )
 }
 
-export default netflixCard
+export default SeriesCard
