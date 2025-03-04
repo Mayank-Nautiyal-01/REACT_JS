@@ -16,7 +16,9 @@ function SeriesCard() {
 
                   <p>Summary:{curElem.description}</p>
 
-                  <p>Genre:{curElem.cast}</p>
+                  <p>Cast: {curElem.cast.join(", ")}</p>
+
+                  <p>Genre:{curElem.genre.join(",")}</p>
 
                   <a href={curElem.watch_url} target="_blank">
                     <button>Watch Now</button>
