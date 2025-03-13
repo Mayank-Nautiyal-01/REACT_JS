@@ -1,4 +1,4 @@
-# Contact Form Project
+# Contact Form Example
 
 ## Overview
 This project consists of a simple Contact Form implemented in React. The form collects user input, including username, email, and message, and logs the data upon submission. Two different implementations of state management are provided for handling form data.
